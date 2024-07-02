@@ -16,9 +16,6 @@ const connectDB = async () => {
 
         await mongoose.connect(config.databseURL as string);
 
-        await mongoose.connection.on('connetd', () => {
-            console.log("Data is already availabale there.... 🤯 😆")
-        })
 
         
 
