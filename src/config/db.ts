@@ -7,7 +7,7 @@ const connectDB = async () => {
     try {
 
         mongoose.connection.on('connected', () => {
-            console.log("Connected sucessfully with database....");
+            console.log("Connected sucessfully with database.... 😊😊");
         });
 
         mongoose.connection.on('error', (err) => {
