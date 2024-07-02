@@ -6,7 +6,8 @@ const app = express();
 //Http method : GET, POST, PUT, PATCH, DELETE
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 app.get('/', (req, res, next) => {
-    res.json({message: "This is for only testting purpose only and we can try out most...."});
+    res.json({message: "This is for only testting purpose only and we can try out most....", value: " Here it's"});
+    
 });
 
 export default app;

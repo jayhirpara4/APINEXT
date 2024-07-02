@@ -9,7 +9,7 @@ const startServer = async () => {
     const port = config.prot || 3000;
 
     app.listen(port, () => {
-        console.log(`Listening on port: ${port}`);
+        console.log(`Listener on port: ${port}`);
     });
 };
 
